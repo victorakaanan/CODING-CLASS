@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modeern - Form</title>
+</head>
+<body>
+    <form action="mailto:example@email.com">
+        <label for="Name">
+            <input type="text" placeholder="First Name">&emsp;&emsp;
+            <input type="text" placeholder="Second Name:">
+        </label>&emsp;&emsp;
+
+        <label for="gender">
+            <b>Gender:</b>&nbsp;
+            <input type="radio" name="gender" id="male">&nbsp; <i>Male</i>
+            <input type="radio" name="gender" id="female">&nbsp; <i>Female</i>
+        </label>&emsp;&emsp;
+
+        <label for="age">
+            <b>DOB:</b>&nbsp; <input type="date">
+        </label><br>
+        <br>
+        <label for="religion">
+            <input list="religion" placeholder="religion">
+            <datalist id="religion">
+                <option value="Christianity">Christianity</option>
+                <option value="Muslim">Muslim</option>
+                <option value="Traditional">Traditional</option>
+                <option value="Others">Others</option>
+            </datalist>
+        </label>
+        <br>
+            <input type="checkbox">&nbsp; check
+            <input type="checkbox">&nbsp; check
+            <input type="checkbox">&nbsp; check
+
+            &emsp;&emsp;&emsp;
+            <label for="Education">
+                <input list="Education qualification" placeholder="Education qualification">
+                <datalist id="Education qualification">
+                    <option value="O level">O level</option>
+                    <option value="OND">OND</option>
+                    <OPtion value="HND">HND</OPtion>
+                    <OPtion value="BSC">BSC</OPtion>
+                    <option value="MASTER">MASTER</option>
+                    <OPtion value="PhD">PhD</OPtion>
+                </datalist>
+                
+             </label><br>
+             <br>
+             <label for="states">
+                <input type="text" name="State" placeholder="State">
+                </label>
+                &emsp;&emsp;
+                <label for="LG">
+                <input type="text" name="LG" placeholder="Local Government">
+                </label>
+                &emsp;&emsp;
+                <label for="country">
+                    <input type="text" name="country" placeholder="country">
+                </label>
+                &emsp;&emsp;
+                <label for="pNumber">
+                    <input type="tel" name="phone number" placeholder="phone number">
+                </label>
+                <br>
+                <br>
+                <label for="Email">
+                    <input type="email" name="Email" placeholder="example@mail.com">
+                </label>
+                &emsp;&emsp;
+                <label for="Password">
+                    <input type="password" name="Password" placeholder="Password">
+                </label>
+                &emsp;&emsp;
+                <label for="vpassword">
+                    <input type="password" name="verified password" placeholder="verified Password">
+                </label>
+                <br><br>
+                <label for="submit">
+                    <input type="submit" value="send">
+                </label>
+    
+</body>
+</html>

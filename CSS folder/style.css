@@ -1,0 +1,31 @@
+/* .first {
+    background-color: black;
+    
+}
+.first div{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+.first :first-child{
+    background-color: red;
+} */
+
+
+/* div:nth-child(2){
+    background:red
+}
+li:nth-child(2) {
+    background:lightgreen 
+}
+:nth-child(3){
+    background:yellow;
+} */
+
+.first {
+    background-color: red;
+}
+
+
+
+

@@ -1,0 +1,31 @@
+/* CSS is styling language used in designing or beautifying a block of codes built for an application */
+/* There are two of styling block of codes, namely */
+/* Inline style: This type of styles are written in the HTML Element to add or give more meaning to the HTML ::-webkit-progress-inner-element */
+
+/* Internal style: this type of style is written inside the Head tag. */
+
+/* External style: This type of style are written in different flies and are link to the HTML file  */
+
+
+
+/* div{
+    background-color: black;
+    height: 100px;
+}
+.first{
+    background-color: red;
+    height: 100px;
+}
+.second{
+    background-color: blue;
+    height: 100px;
+} */
+
+
+
+table{
+    padding: 20px 10px;
+    border: 1px solid black;
+
+}
+

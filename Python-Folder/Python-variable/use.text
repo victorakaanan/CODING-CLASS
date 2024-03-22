@@ -1,0 +1,16 @@
+if it's hot:
+   it's a hot day
+   Drink plenty of water
+otherwise if it' a cold day
+   wear worm clothes
+otherwise
+   it's a lovely day
+
+2. a = 7 and b = 8
+execute the following
+b - a
+a * b
+a / b
+a // b
+a % b
+a ** b
